@@ -111,8 +111,10 @@
         background: linear-gradient(180deg, #1b1b1b, #0c0c0c);
         will-change: transform; backface-visibility: hidden; overflow: hidden;
       }
-      .x-door--l { left: 0; transform-origin: left center; border-right: 1px solid rgba(255,90,31,0.6); box-shadow: 8px 0 34px -6px rgba(255,90,31,0.45); }
-      .x-door--r { right: 0; transform-origin: right center; border-left: 1px solid rgba(255,90,31,0.6); box-shadow: -8px 0 34px -6px rgba(255,90,31,0.45); }
+      .x-door--l { left: 0; transform-origin: left center; }
+      .x-doors.is-opening .x-door--l { border-right: 1px solid rgba(255,90,31,0.6); box-shadow: 8px 0 34px -6px rgba(255,90,31,0.45); }
+      .x-door--r { right: 0; transform-origin: right center; }
+      .x-doors.is-opening .x-door--r { border-left: 1px solid rgba(255,90,31,0.6); box-shadow: -8px 0 34px -6px rgba(255,90,31,0.45); }
       .x-doorface {
         position: absolute; inset: 0; display: grid; align-content: center; gap: 10px;
         padding: 0 var(--x-pad); text-align: center; width: 200%;
@@ -554,6 +556,7 @@
             doorL.style.transform = "rotateY(" + ease * -102 + "deg)";
             doorR.style.transform = "rotateY(" + ease * 102 + "deg)";
             doorL.parentNode.style.opacity = ease > 0.97 ? 0 : 1;
+            doorL.parentNode.classList.toggle("is-opening", ease > 0.03);
             doorL.parentNode.style.pointerEvents = ease > 0.5 ? "none" : "";
             bg.style.transform = "scale(" + (1.22 - 0.17 * ease) + ") translateY(" + p * -18 + "px)";
             var hv = clamp((p - 0.42) / 0.3);
