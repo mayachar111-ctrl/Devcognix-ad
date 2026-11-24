@@ -1,0 +1,690 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DevCognix | Websites, Mobile Apps, AI &amp; SaaS Development</title>
+    <meta name="description" content="DevCognix builds websites, mobile apps, AI agents, SaaS and automation, from idea to production. WhatsApp +91 90190 88160 · www.devcognix.com" />
+    <link rel="canonical" href="https://mayachar111-ctrl.github.io/Devcognix-ad/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="DevCognix" />
+    <meta property="og:url" content="https://mayachar111-ctrl.github.io/Devcognix-ad/" />
+    <meta property="og:title" content="DevCognix | Websites, Mobile Apps, AI &amp; SaaS" />
+    <meta property="og:description" content="Have an idea for an app, website or AI tool? We build it, from idea to production. Call or WhatsApp +91 90190 88160." />
+    <meta property="og:image" content="https://mayachar111-ctrl.github.io/Devcognix-ad/og-image.jpg" />
+    <meta property="og:image:secure_url" content="https://mayachar111-ctrl.github.io/Devcognix-ad/og-image.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="DevCognix: Websites, Mobile Apps, AI, SaaS, Automation. www.devcognix.com, +91 90190 88160" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="DevCognix | Websites, Mobile Apps, AI &amp; SaaS" />
+    <meta name="twitter:description" content="We build it, from idea to production. WhatsApp +91 90190 88160." />
+    <meta name="twitter:image" content="https://mayachar111-ctrl.github.io/Devcognix-ad/og-image.jpg" />
+    <meta name="theme-color" content="#0F0F0F" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&display=swap"
+    />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='112' fill='%231A1A1A'/%3E%3Cg transform='translate(-13.61,-22.30) scale(1.0871)'%3E%3Ccircle cx='222' cy='300' r='96' fill='%23EDEDE8' fill-opacity='0.45'/%3E%3Crect x='292' y='110' width='78' height='292' rx='39' fill='%23EDEDE8'/%3E%3C/g%3E%3C/svg%3E" />
+    <link rel="apple-touch-icon" href="logo512.png" />
+    <link rel="stylesheet" href="hark.css" />
+    <style>
+      :root {
+        --x-bg: #0f0f0f;
+        --x-ink: #fafaf8;
+        --x-ink-2: rgba(250, 250, 248, 0.68);
+        --x-accent: #ff5a1f;
+        --x-glow: 0 0 24px rgba(255, 90, 31, 0.45);
+        --x-line: rgba(250, 250, 248, 0.14);
+        --x-glass: #1a1a1a;
+        --x-sans: "Geist", system-ui, -apple-system, "Segoe UI", sans-serif;
+        --x-dev: "Noto Sans Devanagari", "Mangal", "Nirmala UI", system-ui, sans-serif;
+        --x-pad: 20px;
+      }
+      html { scroll-behavior: auto; }
+      body {
+        background: var(--x-bg);
+        color: var(--x-ink);
+        font-family: var(--x-sans);
+        font-size: 16px;
+        line-height: 1.5;
+        overflow-x: hidden;
+      }
+      .x-wrap { max-width: 980px; margin: 0 auto; }
+      .x-hi { font-family: var(--x-dev); color: var(--x-ink-2); }
+      .x-sec { padding: 72px var(--x-pad); }
+      .x-eyebrow {
+        font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase;
+        color: var(--x-accent); font-weight: 600; margin: 0 0 10px;
+      }
+      h1, h2, h3 { font-family: var(--x-sans); font-weight: 800; letter-spacing: -0.02em; line-height: 1.12; margin: 0; }
+      h2 { font-size: clamp(26px, 7vw, 40px); }
+      h3 { font-size: 18px; font-weight: 700; letter-spacing: -0.01em; }
+      p { margin: 0; }
+
+      /* progress bar */
+      .x-prog {
+        position: fixed; inset: 0 auto auto 0; height: 3px; width: 0%;
+        background: var(--x-accent); box-shadow: var(--x-glow); z-index: 60;
+      }
+
+      /* buttons */
+      .x-btns { display: flex; flex-wrap: wrap; gap: 10px; }
+      .x-btn {
+        display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+        min-height: 48px; padding: 0 20px; border-radius: 999px;
+        font: inherit; font-weight: 600; font-size: 15px; text-decoration: none;
+        border: 1px solid var(--x-line); color: var(--x-ink);
+        background: var(--x-glass); cursor: pointer;
+      }
+      .x-btn--go { background: var(--x-accent); border-color: var(--x-accent); color: #140600; box-shadow: var(--x-glow); }
+      .x-btn:focus-visible { outline: 2px solid var(--x-accent); outline-offset: 3px; }
+
+      /* stage: doors + hero */
+      .x-stage-track { height: 300vh; position: relative; }
+      .x-stage {
+        position: sticky; top: 0; height: 100svh; overflow: hidden;
+        perspective: 1100px; perspective-origin: 50% 45%;
+      }
+      .x-stage__bg { position: absolute; inset: -6%; }
+      .x-stage__bg img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.22); will-change: transform; }
+      .x-stage__bg::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(15,15,15,0.5), rgba(15,15,15,0.86)); }
+      .x-particles { position: absolute; inset: 0; pointer-events: none; }
+      .x-particle {
+        position: absolute; width: 5px; height: 5px; border-radius: 50%;
+        background: var(--x-accent); box-shadow: 0 0 10px rgba(255,90,31,0.8); opacity: 0.5;
+        animation: x-float linear infinite;
+      }
+      @keyframes x-float {
+        from { transform: translate3d(0, 20px, 0); opacity: 0; }
+        20% { opacity: 0.6; }
+        to { transform: translate3d(14px, -120px, 0); opacity: 0; }
+      }
+
+      /* doors */
+      .x-doors { position: absolute; inset: 0; transform-style: preserve-3d; }
+      .x-door {
+        position: absolute; top: 0; bottom: 0; width: 50.4%;
+        background: linear-gradient(180deg, #1b1b1b, #0c0c0c);
+        will-change: transform; backface-visibility: hidden; overflow: hidden;
+      }
+      .x-door--l { left: 0; transform-origin: left center; border-right: 1px solid rgba(255,90,31,0.6); box-shadow: 8px 0 34px -6px rgba(255,90,31,0.45); }
+      .x-door--r { right: 0; transform-origin: right center; border-left: 1px solid rgba(255,90,31,0.6); box-shadow: -8px 0 34px -6px rgba(255,90,31,0.45); }
+      .x-doorface {
+        position: absolute; inset: 0; display: grid; align-content: center; gap: 10px;
+        padding: 0 var(--x-pad); text-align: center; width: 200%;
+      }
+      .x-door--r .x-doorface { left: -100%; }
+      .x-mark { display: inline-flex; align-items: center; gap: 10px; justify-content: center; }
+      .x-tile {
+        width: 38px; height: 38px; border-radius: 22%; display: block; flex: none;
+        box-shadow: 0 0 18px rgba(255, 90, 31, 0.35);
+      }
+      .x-tile svg, .x-cube svg { display: block; width: 100%; height: 100%; }
+      .x-tile--s { width: 20px; height: 20px; box-shadow: none; display: inline-block; vertical-align: -4px; margin-right: 6px; }
+      .x-url { font-size: 15px; font-weight: 600; color: var(--x-accent); letter-spacing: 0.01em; }
+      .x-snd {
+        position: fixed; top: 10px; left: 10px; z-index: 61;
+        width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center;
+        background: rgba(26, 26, 26, 0.82); border: 1px solid var(--x-line); color: var(--x-ink);
+        cursor: pointer; padding: 0; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+      }
+      .x-snd[aria-pressed="true"] { border-color: rgba(255, 90, 31, 0.6); box-shadow: 0 0 14px rgba(255, 90, 31, 0.3); }
+      .x-snd:focus-visible { outline: 2px solid var(--x-accent); outline-offset: 3px; }
+      .x-snd .x-snd__off { display: none; }
+      .x-snd[aria-pressed="false"] .x-snd__on { display: none; }
+      .x-snd[aria-pressed="false"] .x-snd__off { display: block; }
+      .x-word { font-size: clamp(28px, 9vw, 46px); font-weight: 800; letter-spacing: -0.03em; }
+      .x-tag { font-size: clamp(16px, 4.5vw, 20px); font-weight: 600; }
+      .x-hint { font-size: 13px; color: var(--x-ink-2); margin-top: 14px; }
+      .x-hint span { display: block; }
+      .x-arrow { animation: x-bob 1.6s ease-in-out infinite; }
+      @keyframes x-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(5px); } }
+
+      /* revealed hero copy */
+      .x-hero {
+        position: absolute; inset: auto 0 0 0; padding: 0 var(--x-pad) 8svh;
+        display: grid; gap: 14px; opacity: 0; transform: translateY(24px); will-change: opacity, transform;
+      }
+      .x-hero h1 { font-size: clamp(26px, 7.2vw, 44px); }
+      .x-hero p.x-hi { font-size: 15px; }
+
+      /* carousel */
+      .x-car-track { height: 380vh; position: relative; }
+      .x-car {
+        position: sticky; top: 0; min-height: 100svh; display: grid; align-content: center;
+        gap: 18px; padding: 24px var(--x-pad); overflow: hidden;
+      }
+      .x-ring-box { perspective: 900px; height: 340px; position: relative; touch-action: pan-y; }
+      .x-ring { position: absolute; inset: 0; transform-style: preserve-3d; will-change: transform; }
+      .x-card {
+        position: absolute; top: 50%; left: 50%; width: 230px; margin: -140px 0 0 -115px;
+        min-height: 280px; padding: 18px; border-radius: 18px;
+        border: 1px solid var(--x-line); background: linear-gradient(160deg, #222222, #141414) #1a1a1a; display: grid; align-content: start; gap: 8px;
+        will-change: transform, opacity;
+      }
+      .x-card--on { border-color: rgba(255, 90, 31, 0.75); box-shadow: 0 0 30px rgba(255, 90, 31, 0.3); background: linear-gradient(160deg, #3a1d10, #1c120d) #2a1810; }
+      .x-card svg { color: var(--x-accent); }
+      .x-card p { font-size: 14px; color: var(--x-ink-2); }
+      .x-car__foot { font-size: 13px; color: var(--x-ink-2); text-align: center; }
+
+      /* steps */
+      .x-steps { position: relative; display: grid; gap: 18px; padding-left: 34px; }
+      .x-rail { position: absolute; left: 13px; top: 8px; bottom: 8px; width: 2px; background: var(--x-line); }
+      .x-rail i { position: absolute; inset: 0 0 auto 0; height: 0%; background: var(--x-accent); box-shadow: var(--x-glow); display: block; }
+      .x-step {
+        position: relative; padding: 16px; border-radius: 16px;
+        border: 1px solid var(--x-line); background: var(--x-glass);
+      }
+      .x-step__n {
+        position: absolute; left: -34px; top: 16px; width: 28px; height: 28px; border-radius: 50%;
+        display: grid; place-items: center; font-size: 13px; font-weight: 700;
+        background: var(--x-bg); border: 1px solid var(--x-accent); color: var(--x-accent);
+      }
+      .x-step p { font-size: 14px; color: var(--x-ink-2); margin-top: 4px; }
+
+      /* why cards */
+      .x-grid { display: grid; gap: 14px; grid-template-columns: 1fr; }
+      @media (min-width: 680px) { .x-grid { grid-template-columns: 1fr 1fr; } }
+      .x-tilt {
+        padding: 18px; border-radius: 18px; border: 1px solid var(--x-line);
+        background: var(--x-glass); transform-style: preserve-3d; transition: transform 0.25s ease-out;
+        min-height: 110px;
+      }
+      .x-tilt p { font-size: 14px; }
+
+      /* cta */
+      .x-cube-box { perspective: 700px; display: grid; place-items: center; height: 170px; }
+      .x-cube { position: relative; width: 96px; height: 96px; transform-style: preserve-3d; animation: x-spin 12s linear infinite; }
+      .x-cube-box { filter: drop-shadow(0 0 28px rgba(255, 90, 31, 0.35)); }
+      .x-cube div {
+        position: absolute; inset: 0; overflow: hidden;
+        background: #1a1a1a; border: 1px solid rgba(255, 90, 31, 0.7);
+        box-shadow: 0 0 40px rgba(255, 90, 31, 0.4), inset 0 0 18px rgba(255, 90, 31, 0.25); border-radius: 21px;
+        backface-visibility: visible;
+      }
+      @keyframes x-spin { from { transform: rotateX(-18deg) rotateY(0); } to { transform: rotateX(-18deg) rotateY(360deg); } }
+      .x-contact { font-size: 14px; color: var(--x-ink-2); }
+      .x-share { font-size: 14px; color: var(--x-ink-2); word-break: break-all; }
+      .x-foot { padding: 28px var(--x-pad) 110px; border-top: 1px solid var(--x-line); font-size: 13px; color: var(--x-ink-2); text-align: center; }
+
+      /* floating whatsapp */
+      .x-float {
+        position: fixed; right: 16px; bottom: 16px; z-index: 55;
+        width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center;
+        background: var(--x-accent); color: #140600; box-shadow: var(--x-glow);
+        opacity: 0; pointer-events: none; transform: scale(0.8); transition: opacity 0.3s, transform 0.3s;
+      }
+      .x-float.is-on { opacity: 1; pointer-events: auto; transform: none; }
+
+      /* reveal */
+      .x-rise { opacity: 0; transform: translateY(26px) rotateX(8deg); transition: opacity 0.7s ease-out, transform 0.7s ease-out; }
+      .x-rise.is-in { opacity: 1; transform: none; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .x-stage-track, .x-car-track { height: auto; }
+        .x-stage { position: static; height: auto; min-height: 0; padding: 72px var(--x-pad) 40px; display: grid; gap: 16px; }
+        .x-stage__bg { position: absolute; inset: 0; }
+        .x-stage__bg img { transform: none; }
+        .x-doors { display: none; }
+        .x-hero { position: relative; opacity: 1; transform: none; padding: 0; }
+        .x-car { position: static; }
+        .x-ring-box { height: auto; perspective: none; }
+        .x-ring { position: static; }
+        .x-card { position: static; width: auto; margin: 0 0 14px; min-height: 0; }
+        .x-particle, .x-cube, .x-arrow { animation: none; }
+        .x-rise { opacity: 1; transform: none; }
+        .x-rail i { height: 100% !important; }
+      }
+    </style>
+  </head>
+  <body>
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true" focusable="false">
+      <symbol id="x-logo" viewBox="0 0 512 512"><rect width="512" height="512" rx="112" fill="#1A1A1A"/><g transform="translate(-13.61,-22.30) scale(1.0871)"><circle cx="222" cy="300" r="96" fill="#EDEDE8" fill-opacity="0.45"/><rect x="292" y="110" width="78" height="292" rx="39" fill="#EDEDE8"/></g></symbol>
+    </svg>
+    <div class="x-prog" id="prog" role="presentation"></div>
+    <button class="x-snd" id="sndbtn" type="button" aria-pressed="true" aria-label="Sound on, tap to mute">
+      <svg class="x-snd__on" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg>
+      <svg class="x-snd__off" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M17 9.5l5 5M22 9.5l-5 5"/></svg>
+    </button>
+
+    <main>
+      <!-- 1 + 2: doors and hero -->
+      <section class="x-stage-track" id="track">
+        <div class="x-stage" id="stage">
+          <div class="x-stage__bg"><img id="bgimg" src="devcognix_hero.png" alt="Floating orange-lit glass cubes and interface panels" /></div>
+          <div class="x-particles" id="particles" aria-hidden="true"></div>
+
+          <div class="x-hero" id="hero">
+            <div class="x-mark" style="justify-content: flex-start">
+              <span class="x-tile"><svg viewBox="0 0 512 512" aria-hidden="true"><use href="#x-logo"/></svg></span><span style="font-weight: 800; font-size: 20px">DevCognix</span>
+            </div>
+            <h1>Have an idea for an app, website or AI tool? We build it, from idea to production.</h1>
+            <p class="x-hi">ऐप, वेबसाइट या AI टूल का आइडिया है? हम उसे आइडिया से प्रोडक्शन तक बनाते हैं।</p>
+            <div class="x-btns">
+              <a class="x-btn x-btn--go" href="https://wa.me/919019088160?text=Hi%20DevCognix%2C%20I%20have%20a%20project%20idea" target="_blank" rel="noopener">WhatsApp us</a>
+              <a class="x-btn" href="tel:+919019088160">Call +91 90190 88160</a>
+              <a class="x-btn" href="https://www.devcognix.com" target="_blank" rel="noopener">Visit www.devcognix.com</a>
+            </div>
+          </div>
+
+          <div class="x-doors" id="doors" aria-hidden="false">
+            <div class="x-door x-door--l" id="doorL">
+              <div class="x-doorface">
+                <div class="x-mark"><span class="x-tile"><svg viewBox="0 0 512 512" aria-hidden="true"><use href="#x-logo"/></svg></span><span class="x-word">DevCognix</span></div>
+                <p class="x-tag">Build With Purpose.</p>
+                <p class="x-url">www.devcognix.com</p>
+                <p class="x-hi">मकसद के साथ बनाइए।</p>
+                <p class="x-hint"><span class="x-arrow">Scroll to open ↓</span><span class="x-hi">खोलने के लिए स्क्रॉल करें</span></p>
+              </div>
+            </div>
+            <div class="x-door x-door--r" id="doorR" aria-hidden="true">
+              <div class="x-doorface">
+                <div class="x-mark"><span class="x-tile"><svg viewBox="0 0 512 512" aria-hidden="true"><use href="#x-logo"/></svg></span><span class="x-word">DevCognix</span></div>
+                <p class="x-tag">Build With Purpose.</p>
+                <p class="x-url">www.devcognix.com</p>
+                <p class="x-hi">मकसद के साथ बनाइए।</p>
+                <p class="x-hint"><span class="x-arrow">Scroll to open ↓</span><span class="x-hi">खोलने के लिए स्क्रॉल करें</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3: services carousel -->
+      <section class="x-car-track" id="cartrack" aria-labelledby="svc-h">
+        <div class="x-car">
+          <div class="x-wrap" style="width: 100%; text-align: center">
+            <p class="x-eyebrow">Services</p>
+            <h2 id="svc-h">What we build</h2>
+            <p class="x-hi">हम क्या बनाते हैं</p>
+          </div>
+          <div class="x-ring-box" id="ringbox">
+            <div class="x-ring" id="ring">
+              <article class="x-card">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 8h18M8 21h8"/></svg>
+                <h3>Websites &amp; Web Apps</h3><p>Fast, responsive sites that convert.</p><p class="x-hi">वेबसाइट और वेब ऐप</p>
+              </article>
+              <article class="x-card">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M10.5 18.5h3"/></svg>
+                <h3>Mobile App Development</h3><p>Android and iOS apps your customers love to use.</p><p class="x-hi">मोबाइल ऐप डेवलपमेंट</p>
+              </article>
+              <article class="x-card">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+                <h3>SaaS Platforms</h3><p>Subscription products, dashboards, billing.</p><p class="x-hi">SaaS प्लेटफ़ॉर्म</p>
+              </article>
+              <article class="x-card">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="5" y="7" width="14" height="12" rx="3"/><path d="M12 3v4M9 12h.01M15 12h.01M9 16h6"/></svg>
+                <h3>AI Agents &amp; Integrations</h3><p>Chatbots, assistants, LLM features in your product.</p><p class="x-hi">AI एजेंट और इंटीग्रेशन</p>
+              </article>
+              <article class="x-card">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg>
+                <h3>Business Automation</h3><p>Workflows that save hours every week.</p><p class="x-hi">बिज़नेस ऑटोमेशन</p>
+              </article>
+              <article class="x-card">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 13l9 5 9-5"/></svg>
+                <h3>UI/UX Design</h3><p>Clean interfaces people enjoy using.</p><p class="x-hi">UI/UX डिज़ाइन</p>
+              </article>
+              <article class="x-card">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 15c-1 2-1 4-1 5 1 0 3 0 5-1M9 15l-3-3c2-5 6-9 13-9 0 7-4 11-9 13z"/><circle cx="14.5" cy="9.5" r="1.5"/></svg>
+                <h3>MVPs for Startups</h3><p>Launch-ready first version, fast.</p><p class="x-hi">स्टार्टअप के लिए MVP</p>
+              </article>
+              <article class="x-card">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg>
+                <h3>Custom Software</h3><p>Built around how your business works.</p><p class="x-hi">कस्टम सॉफ़्टवेयर</p>
+              </article>
+              <article class="x-card">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4 2.5-2.5z"/></svg>
+                <h3>Maintenance &amp; Support</h3><p>Updates, fixes and monitoring.</p><p class="x-hi">मेंटेनेंस और सपोर्ट</p>
+              </article>
+            </div>
+          </div>
+          <p class="x-car__foot">Scroll or swipe to turn · <span class="x-hi">घुमाने के लिए स्वाइप करें</span></p>
+        </div>
+      </section>
+
+      <!-- 4: how we work -->
+      <section class="x-sec" id="how">
+        <div class="x-wrap">
+          <div class="x-rise" style="margin-bottom: 28px">
+            <p class="x-eyebrow">How we work</p>
+            <h2>From idea to launch</h2>
+            <p class="x-hi">आइडिया से लॉन्च तक</p>
+          </div>
+          <div class="x-steps" id="steps">
+            <div class="x-rail" aria-hidden="true"><i id="rail"></i></div>
+            <article class="x-step x-rise"><span class="x-step__n">1</span><h3>Discover</h3><p>Share your idea; we map scope and goals.</p><p class="x-hi">समझना</p></article>
+            <article class="x-step x-rise"><span class="x-step__n">2</span><h3>Design</h3><p>Wireframes and UI you approve.</p><p class="x-hi">डिज़ाइन</p></article>
+            <article class="x-step x-rise"><span class="x-step__n">3</span><h3>Build</h3><p>Weekly demos as we develop.</p><p class="x-hi">डेवलपमेंट</p></article>
+            <article class="x-step x-rise"><span class="x-step__n">4</span><h3>Launch &amp; grow</h3><p>Go live, then support and improve.</p><p class="x-hi">लॉन्च</p></article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5: why -->
+      <section class="x-sec" id="why">
+        <div class="x-wrap">
+          <div class="x-rise" style="margin-bottom: 28px">
+            <p class="x-eyebrow">Why DevCognix</p>
+            <h2>Built to ship, not just to demo.</h2>
+            <p class="x-hi">क्यों DevCognix</p>
+          </div>
+          <div class="x-grid">
+            <div class="x-rise"><div class="x-tilt"><h3>Clear plan before we start</h3><p style="color: var(--x-ink-2); margin-top: 4px">Scope, approach and next steps.</p><p class="x-hi" style="margin-top: 8px">शुरू करने से पहले साफ़ योजना</p></div></div>
+            <div class="x-rise"><div class="x-tilt"><h3>Modern stack, production-ready code</h3><p class="x-hi" style="margin-top: 8px">आधुनिक टेक, भरोसेमंद कोड</p></div></div>
+            <div class="x-rise"><div class="x-tilt"><h3>AI built in where it actually helps</h3><p class="x-hi" style="margin-top: 8px">जहाँ ज़रूरी, वहाँ AI</p></div></div>
+            <div class="x-rise"><div class="x-tilt"><h3>One team from design to deployment</h3><p class="x-hi" style="margin-top: 8px">डिज़ाइन से डिप्लॉयमेंट तक एक टीम</p></div></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6: CTA -->
+      <section class="x-sec" id="contact">
+        <div class="x-wrap x-rise" style="display: grid; gap: 16px; text-align: center; justify-items: center">
+          <div class="x-cube-box" aria-hidden="true">
+            <div class="x-cube">
+              <div style="transform: translateZ(48px)"><svg viewBox="0 0 512 512"><use href="#x-logo"/></svg></div>
+              <div style="transform: rotateY(90deg) translateZ(48px)"><svg viewBox="0 0 512 512"><use href="#x-logo"/></svg></div>
+              <div style="transform: rotateY(180deg) translateZ(48px)"><svg viewBox="0 0 512 512"><use href="#x-logo"/></svg></div>
+              <div style="transform: rotateY(-90deg) translateZ(48px)"><svg viewBox="0 0 512 512"><use href="#x-logo"/></svg></div>
+              <div style="transform: rotateX(90deg) translateZ(48px)"><svg viewBox="0 0 512 512"><use href="#x-logo"/></svg></div>
+              <div style="transform: rotateX(-90deg) translateZ(48px)"><svg viewBox="0 0 512 512"><use href="#x-logo"/></svg></div>
+            </div>
+          </div>
+          <h2>Let's build your idea</h2>
+          <p class="x-hi">आइए आपका आइडिया बनाएं</p>
+          <p style="max-width: 34em">Tell us what you're building and get a clear plan: scope, approach and next steps.</p>
+          <p class="x-hi" style="max-width: 34em">बताइए आप क्या बनाना चाहते हैं, हम साफ़ योजना देंगे।</p>
+          <div class="x-btns" style="justify-content: center">
+            <a class="x-btn x-btn--go" href="https://wa.me/919019088160?text=Hi%20DevCognix%2C%20I%20have%20a%20project%20idea" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="x-btn" href="tel:+919019088160">Call</a>
+            <a class="x-btn" href="mailto:hello@devcognix.com">Email</a>
+            <a class="x-btn" href="https://www.devcognix.com" target="_blank" rel="noopener">www.devcognix.com</a>
+            <button class="x-btn" type="button" id="sharebtn">Share</button>
+          </div>
+          <p class="x-share" id="shareout" hidden aria-live="polite"></p>
+          <p class="x-contact">+91 90190 88160 · hello@devcognix.com · <span style="color: var(--x-accent)">www.devcognix.com</span> · Bengaluru</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="x-foot"><span class="x-tile x-tile--s"><svg viewBox="0 0 512 512" aria-hidden="true"><use href="#x-logo"/></svg></span>© 2026 DevCognix · www.devcognix.com · Build With Purpose.</footer>
+
+    <a class="x-float" id="floatwa" href="https://wa.me/919019088160?text=Hi%20DevCognix%2C%20I%20have%20a%20project%20idea" target="_blank" rel="noopener" aria-label="WhatsApp DevCognix">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3z"/></svg>
+    </a>
+
+    <script>
+      (function () {
+        "use strict";
+        var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        var prog = document.getElementById("prog");
+
+        /* particles */
+        var pbox = document.getElementById("particles");
+        if (pbox) {
+          var frag = document.createDocumentFragment();
+          for (var i = 0; i < 18; i++) {
+            var d = document.createElement("span");
+            d.className = "x-particle";
+            d.style.left = (5 + Math.random() * 90).toFixed(1) + "%";
+            d.style.top = (20 + Math.random() * 75).toFixed(1) + "%";
+            d.style.animationDuration = (5 + Math.random() * 7).toFixed(1) + "s";
+            d.style.animationDelay = (-Math.random() * 8).toFixed(1) + "s";
+            frag.appendChild(d);
+          }
+          pbox.appendChild(frag);
+        }
+
+        /* sound: Web Audio, synthesized, unlocked on first gesture */
+        var snd = (function () {
+          var AC = window.AudioContext || window.webkitAudioContext;
+          var ctx = null, master = null, on = !reduce, doorDone = false, lastTick = 0;
+          var btn = document.getElementById("sndbtn");
+          function paint() {
+            if (!btn) return;
+            btn.setAttribute("aria-pressed", on ? "true" : "false");
+            btn.setAttribute("aria-label", on ? "Sound on, tap to mute" : "Sound off, tap to turn on");
+          }
+          function unlock() {
+            if (!AC) return;
+            if (!ctx) {
+              try {
+                ctx = new AC();
+                var comp = ctx.createDynamicsCompressor();
+                master = ctx.createGain();
+                master.gain.value = 0.8;
+                master.connect(comp); comp.connect(ctx.destination);
+              } catch (e) { ctx = null; return; }
+            }
+            if (ctx.state === "suspended") ctx.resume().catch(function () {});
+          }
+          function ready() { return on && ctx && ctx.state === "running"; }
+          function noise(sec) {
+            var b = ctx.createBuffer(1, Math.floor(ctx.sampleRate * sec), ctx.sampleRate), d = b.getChannelData(0);
+            for (var i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
+            var s = ctx.createBufferSource(); s.buffer = b; return s;
+          }
+          function whoosh(t) {
+            var src = noise(1.4), f = ctx.createBiquadFilter(), g = ctx.createGain();
+            f.type = "bandpass"; f.Q.value = 0.9;
+            f.frequency.setValueAtTime(160, t);
+            f.frequency.exponentialRampToValueAtTime(1100, t + 0.55);
+            f.frequency.exponentialRampToValueAtTime(260, t + 1.3);
+            g.gain.setValueAtTime(0.0001, t);
+            g.gain.exponentialRampToValueAtTime(0.22, t + 0.35);
+            g.gain.exponentialRampToValueAtTime(0.0001, t + 1.35);
+            src.connect(f); f.connect(g); g.connect(master);
+            src.start(t); src.stop(t + 1.4);
+          }
+          function chime(t) {
+            /* D major, airy: D6 F#6 A6 D7 */
+            [1174.66, 1479.98, 1760, 2349.32].forEach(function (fr, i) {
+              var st = t + i * 0.09, o = ctx.createOscillator(), o2 = ctx.createOscillator(), g = ctx.createGain();
+              o.type = "sine"; o.frequency.value = fr;
+              o2.type = "sine"; o2.frequency.value = fr * 2.003;
+              var g2 = ctx.createGain(); g2.gain.value = 0.18;
+              g.gain.setValueAtTime(0.0001, st);
+              g.gain.exponentialRampToValueAtTime(0.045, st + 0.02);
+              g.gain.exponentialRampToValueAtTime(0.0001, st + 1.8);
+              o.connect(g); o2.connect(g2); g2.connect(g); g.connect(master);
+              o.start(st); o2.start(st); o.stop(st + 1.9); o2.stop(st + 1.9);
+            });
+            var air = noise(1.2), hf = ctx.createBiquadFilter(), ag = ctx.createGain();
+            hf.type = "highpass"; hf.frequency.value = 6000;
+            ag.gain.setValueAtTime(0.0001, t);
+            ag.gain.exponentialRampToValueAtTime(0.025, t + 0.15);
+            ag.gain.exponentialRampToValueAtTime(0.0001, t + 1.1);
+            air.connect(hf); hf.connect(ag); ag.connect(master);
+            air.start(t); air.stop(t + 1.2);
+          }
+          var api = {
+            door: function (open) {
+              if (doorDone || open < 0.15) return;
+              if (open > 0.85) { doorDone = true; return; }
+              if (!ready()) return;
+              doorDone = true;
+              var t = ctx.currentTime + 0.02;
+              whoosh(t); chime(t + 0.5);
+            },
+            tick: function () {
+              if (!ready()) return;
+              var now = performance.now();
+              if (now - lastTick < 70) return;
+              lastTick = now;
+              var t = ctx.currentTime, o = ctx.createOscillator(), g = ctx.createGain();
+              o.type = "triangle"; o.frequency.setValueAtTime(2200, t);
+              o.frequency.exponentialRampToValueAtTime(1400, t + 0.03);
+              g.gain.setValueAtTime(0.0001, t);
+              g.gain.exponentialRampToValueAtTime(0.03, t + 0.003);
+              g.gain.exponentialRampToValueAtTime(0.0001, t + 0.05);
+              o.connect(g); g.connect(master); o.start(t); o.stop(t + 0.06);
+            }
+          };
+          ["pointerdown", "touchstart", "touchend", "keydown", "click", "wheel", "scroll"].forEach(function (ev) {
+            window.addEventListener(ev, unlock, { passive: true, capture: true });
+          });
+          if (btn) btn.addEventListener("click", function () {
+            on = !on; unlock(); paint();
+            if (on) setTimeout(api.tick, 60);
+          });
+          paint();
+          return api;
+        })();
+
+        /* scroll progress + doors */
+        var track = document.getElementById("track"), doorL = document.getElementById("doorL"),
+          doorR = document.getElementById("doorR"), hero = document.getElementById("hero"),
+          bg = document.getElementById("bgimg"), floatBtn = null;
+        function clamp(v) { return v < 0 ? 0 : v > 1 ? 1 : v; }
+
+        function frame() {
+          var h = document.documentElement;
+          var max = h.scrollHeight - window.innerHeight;
+          prog.style.width = (max > 0 ? (h.scrollTop / max) * 100 : 0) + "%";
+          if (!reduce && track) {
+            var span = track.offsetHeight - window.innerHeight;
+            var p = clamp((h.scrollTop - track.offsetTop) / (span || 1));
+            var open = clamp(p / 0.62);
+            var ease = open * open * (3 - 2 * open);
+            snd.door(open);
+            doorL.style.transform = "rotateY(" + ease * -102 + "deg)";
+            doorR.style.transform = "rotateY(" + ease * 102 + "deg)";
+            doorL.parentNode.style.opacity = ease > 0.97 ? 0 : 1;
+            doorL.parentNode.style.pointerEvents = ease > 0.5 ? "none" : "";
+            bg.style.transform = "scale(" + (1.22 - 0.17 * ease) + ") translateY(" + p * -18 + "px)";
+            var hv = clamp((p - 0.42) / 0.3);
+            hero.style.opacity = hv;
+            hero.style.transform = "translateY(" + (1 - hv) * 24 + "px)";
+            if (floatBtn) floatBtn.classList.toggle("is-on", ease > 0.9);
+          } else if (floatBtn) {
+            floatBtn.classList.toggle("is-on", h.scrollTop > 400);
+          }
+          if (window.xRing) window.xRing(h.scrollTop);
+          ticking = false;
+        }
+        var ticking = false;
+        function onScroll() { if (!ticking) { ticking = true; requestAnimationFrame(frame); } }
+        window.addEventListener("scroll", onScroll, { passive: true });
+        window.addEventListener("resize", onScroll);
+        window.addEventListener("load", onScroll);
+        document.addEventListener("DOMContentLoaded", function () {
+          floatBtn = document.getElementById("floatwa");
+          frame();
+        });
+
+        /* reveal on enter */
+        var io = new IntersectionObserver(function (es) {
+          es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("is-in"); io.unobserve(e.target); } });
+        }, { rootMargin: "0px 0px -8% 0px" });
+        document.addEventListener("DOMContentLoaded", function () {
+          [].forEach.call(document.querySelectorAll(".x-rise"), function (el) { io.observe(el); });
+        });
+
+        /* services ring, steps rail, tilt, share */
+        document.addEventListener("DOMContentLoaded", function () {
+          var ring = document.getElementById("ring"), box = document.getElementById("ringbox"),
+            ctrack = document.getElementById("cartrack"), cards = [].slice.call(ring.children),
+            n = cards.length, step = 360 / n, drag = 0, radius = 300;
+
+          function layout() {
+            var w = window.innerWidth < 420 ? 200 : 230;
+            cards.forEach(function (c) { c.style.width = w + "px"; c.style.marginLeft = -w / 2 + "px"; });
+            radius = Math.round((w / 2 + 14) / Math.tan(Math.PI / n));
+          }
+
+          var last = 0, lastFront = -1;
+          window.xRing = function (y) {
+            last = y;
+            if (reduce) return;
+            var span = ctrack.offsetHeight - window.innerHeight;
+            var p = clamp((y - ctrack.offsetTop) / (span || 1));
+            var angle = p * step * (n - 1) + drag;
+            ring.style.transform = "translateZ(" + -radius + "px) rotateY(" + -angle + "deg)";
+            var front = ((Math.round(angle / step) % n) + n) % n;
+            if (lastFront !== -1 && front !== lastFront) snd.tick();
+            lastFront = front;
+            cards.forEach(function (c, i) {
+              var rel = ((i * step - angle) % 360 + 540) % 360 - 180;
+              var k = Math.cos((rel * Math.PI) / 180);
+              c.style.transform = "rotateY(" + i * step + "deg) translateZ(" + radius + "px)";
+              c.style.opacity = (0.12 + 0.88 * Math.max(0, k) * Math.max(0, k)).toFixed(3);
+              c.classList.toggle("x-card--on", i === front);
+              c.setAttribute("aria-hidden", Math.abs(rel) > 60 ? "true" : "false");
+            });
+          };
+
+          if (!reduce) {
+            layout();
+            window.addEventListener("resize", function () { layout(); window.xRing(last); });
+            var sx = null, sd = 0;
+            box.addEventListener("pointerdown", function (e) { sx = e.clientX; sd = drag; });
+            box.addEventListener("pointermove", function (e) {
+              if (sx === null) return;
+              drag = sd - (e.clientX - sx) * 0.35;
+              window.xRing(document.documentElement.scrollTop);
+            });
+            function end() {
+              if (sx === null) return;
+              sx = null;
+              drag = Math.round(drag / step) * step;
+              ring.style.transition = "transform 0.35s ease-out";
+              window.xRing(document.documentElement.scrollTop);
+              setTimeout(function () { ring.style.transition = ""; }, 360);
+            }
+            box.addEventListener("pointerup", end);
+            box.addEventListener("pointercancel", end);
+            box.addEventListener("pointerleave", end);
+            window.xRing(document.documentElement.scrollTop);
+          }
+
+          /* rail */
+          var steps = document.getElementById("steps"), rail = document.getElementById("rail");
+          function drawRail() {
+            if (reduce) return;
+            var r = steps.getBoundingClientRect();
+            var p = clamp((window.innerHeight * 0.7 - r.top) / (r.height || 1));
+            rail.style.height = (p * 100).toFixed(1) + "%";
+          }
+          window.addEventListener("scroll", function () { requestAnimationFrame(drawRail); }, { passive: true });
+          drawRail();
+
+          /* tilt */
+          if (!reduce) {
+            [].forEach.call(document.querySelectorAll(".x-tilt"), function (t) {
+              t.addEventListener("pointermove", function (e) {
+                var r = t.getBoundingClientRect();
+                var x = (e.clientX - r.left) / r.width - 0.5, y = (e.clientY - r.top) / r.height - 0.5;
+                t.style.transform = "perspective(700px) rotateX(" + (-y * 12).toFixed(1) + "deg) rotateY(" + (x * 14).toFixed(1) + "deg) translateZ(6px)";
+                t.style.borderColor = "rgba(255,90,31,0.6)";
+              });
+              function reset() { t.style.transform = ""; t.style.borderColor = ""; }
+              t.addEventListener("pointerleave", reset);
+              t.addEventListener("pointerup", function (e) { if (e.pointerType !== "mouse") setTimeout(reset, 400); });
+              t.addEventListener("pointercancel", reset);
+            });
+          }
+
+          /* share */
+          var sb = document.getElementById("sharebtn"), so = document.getElementById("shareout");
+          var shareText = "DevCognix builds apps, websites and AI tools, from idea to production. WhatsApp +91 90190 88160 · www.devcognix.com";
+          sb.addEventListener("click", function () {
+            function fallback() {
+              so.hidden = false;
+              so.textContent = "Copy and share this: " + shareText;
+            }
+            if (navigator.share) {
+              navigator.share({ title: "DevCognix", text: shareText, url: "https://www.devcognix.com" }).catch(function (err) {
+                if (!err || err.name !== "AbortError") fallback();
+              });
+            } else fallback();
+          });
+        });
+      })();
+    </script>
+    <script src="hark.js"></script>
+  </body>
+</html>
